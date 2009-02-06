@@ -1,0 +1,6 @@
+category: Gnome Utils
+requires: cygwin libglib2.0_0 libgtk2.0_0 libintl8 libmhash2
+sdesc: "GTK+ utility for computing message digests and checksums"
+ldesc: "A GTK+ utility for computing message digests or checksums using 
+the mhash library. Currently supported hash functions include MD5, SHA1, 
+SHA256, SHA512, RIPEMD, HAVAL, TIGER and WHIRLPOOL."

@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ utility for computing message digests and checksums"
+HOMEPAGE="http://gtkhash.sourceforge.net/"
+SRC_URI="mirror://sourceforge/gtkhash/${P}.tar.gz"
+
+# src/main.c:
+CPPFLAGS+=" -Dstat64=stat"
+# GtkBuilder
+LDFLAGS+=" -Wl,--export-all-symbols"
